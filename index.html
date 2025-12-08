@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="dark" data-theme="matrix">
 <head>
+	<link rel="manifest" href="/manifest.json">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Prompt Builder v120 (All Providers)</title>
@@ -390,7 +391,7 @@
                         <div class="flex flex-col items-center gap-1"><span class="text-2xl">&#x1F481</span><span class="text-xs font-bold text-gray-400 group-[.active-standard]:text-theme-400">Male</span></div>
                     </button>
                     <button class="config-btn tap-highlight-none p-4 rounded-2xl bg-gray-800/40 border border-gray-700/50 hover:bg-gray-700/40 transition-all duration-200 group data-active:border-theme-500 data-active:bg-theme-500/10" data-type="subject" data-value="scenery">
-                        <div class="flex flex-col items-center gap-1"><span class="text-2xl">🏔️</span><span class="text-xs font-bold text-gray-400 group-[.active-standard]:text-theme-400">Scenery</span></div>
+                        <div class="flex flex-col items-center gap-1"><span class="text-2xl">ðï¸</span><span class="text-xs font-bold text-gray-400 group-[.active-standard]:text-theme-400">Scenery</span></div>
                     </button>
                 </div>
 
@@ -1518,7 +1519,7 @@ function buildUI() {
                       <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-theme-400 opacity-75"></span>
                       <span class="relative inline-flex rounded-full h-2 w-2 bg-theme-500"></span>
                     </span>
-                    <span>${currentProv} � ${count} FILES</span>
+                    <span>${currentProv}  ${count} FILES</span>
                 `;
             }
         }
@@ -2351,4 +2352,5 @@ function buildUI() {
             });
     </script>
 </body>
+
 </html>
