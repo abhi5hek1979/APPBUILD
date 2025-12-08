@@ -2,7 +2,7 @@
   "name": "Prompt builder",
   "short_name": "PromptBuilder",
   "start_url": "index.html?fullscreen=true",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "sizes": "114x114",
