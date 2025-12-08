@@ -1,8 +1,8 @@
 {
   "name": "Prompt builder",
   "short_name": "PromptBuilder",
-  "start_url": "/",
-  "display": "standalone",
+  "start_url": "index.html?fullscreen=true",
+  "display": "fullscreen",
   "icons": [
     {
       "sizes": "114x114",
