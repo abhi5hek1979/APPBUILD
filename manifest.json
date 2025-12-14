@@ -1,8 +1,8 @@
 {
   "id": "pBuild",
-  "name": "Prompt builder",
-  "short_name": "PromptBuilder",
-  "description": "A custom prompt builder to be used for generating prompts",
+  "name": "Prompter Ultra",
+  "short_name": "Prompter",
+  "description": "A custom prompt builder to be used for generating prompts and images",
 
   "start_url": "/index.html",
   "scope": "/",
