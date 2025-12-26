@@ -3338,7 +3338,10 @@
 					// 5. Build Options based on Provider Type
 					let options = {
 						model: selectedModel,
-						negative_prompt: getActiveNegativePrompt()
+						negative_prompt: getActiveNegativePrompt(),
+						disable_safety_checker: true,
+						width: 768,
+						height: 1344
 					};
 
 					// --- CRITICAL FIX: Parameter Mapping ---
@@ -7398,4 +7401,5 @@ async function performUpscale(base64Img, promptText) {
     </script>
 </body>
 </html>
+
 
